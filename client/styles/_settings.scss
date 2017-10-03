@@ -1,0 +1,11 @@
+$black: #000;
+$black-1: rgba($black, .87);
+$black-2: rgba($black, .54);
+$black-3: rgba($black, .38);
+
+@mixin middleCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

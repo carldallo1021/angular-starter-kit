@@ -1,0 +1,23 @@
+{
+  "name": "as-angular-seed",
+  "version": "0.0.1",
+  "authors": [
+    "Alexander Sidorenko my.mail.kharkov@gmail.com"
+  ],
+  "directory": "client/vendor",
+  "description": "AngularJS seed with browserify",
+  "main": "client/app/app.modules.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.6",
+    "angular-material": "^1.1.5",
+  }
+}
